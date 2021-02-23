@@ -29,13 +29,6 @@
 #include "WFreq.h"
 #include "stemmer.h"
 
-#define STOPWORDS "stopwords"
-#define MAXLINE 1000
-#define MAXWORD 100
-
-#define STARTING "*** START OF"
-#define ENDING   "*** END OF"
-
 // ------------------------------------------------------------------
 // FUNCTION PROTOTYPES
 void toLower(char *str);
