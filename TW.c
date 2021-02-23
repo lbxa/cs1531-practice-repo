@@ -164,3 +164,5 @@ void addWordToDict(char *word, Dict stopwords, Dict wfreqs) {
       if (strlen(word) > 1) DictInsert(wfreqs, word);
    }
 }
+
+// this is just a comment
