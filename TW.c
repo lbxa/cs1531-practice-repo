@@ -174,16 +174,3 @@ void addWordToDict(char *word, Dict stopwords, Dict wfreqs) {
 
 // ------------------------------------------------------------------
 // STRING MANIPULATION...
-
-// change all characters in a string to lower case.
-void toLower(char *str) {
-   if (str == NULL) return;
-   for(int i = 0; str[i] != '\0'; i++){
-      str[i] = tolower(str[i]);
-   }
-}
-
-// use for removing trailing newlines from the stopwords file
-void removeNewline(char *str) {
-   str[strcspn(str, "\n")] = '\0';
-}
