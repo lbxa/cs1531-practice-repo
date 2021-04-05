@@ -1,0 +1,68 @@
+{
+    "users": [
+        {
+            "u_id": 0,
+            "email": "aa@a.com",
+            "password": "password1",
+            "name_first": "Big",
+            "name_last": "Boss",
+            "handle_str": "bigboss",
+            "sessions": [
+                "482d85a6-a2fe-40f8-823b-aa8f30549482"
+            ]
+        },
+        {
+            "u_id": 1,
+            "email": "bb@b.com",
+            "password": "password1",
+            "name_first": "Marc",
+            "name_last": "Chee",
+            "handle_str": "marcchee",
+            "sessions": [
+                "b60564f2-f3b9-42eb-9ff5-d58d090f4d99"
+            ]
+        },
+        {
+            "u_id": 2,
+            "email": "a1b2c3@gmail.com",
+            "password": "passw0rd",
+            "name_first": "Monster",
+            "name_last": "Cat",
+            "handle_str": "monstercat",
+            "sessions": [
+                "42fe32cb-f0b4-4e0a-b18b-3c5be4661ad5"
+            ]
+        }
+    ],
+    "channels": [
+        {
+            "channel_id": 0,
+            "name": "NewChannel",
+            "is_public": true,
+            "owner": [
+                {
+                    "u_id": 0,
+                    "email": "aa@a.com",
+                    "name_first": "Big",
+                    "name_last": "Boss",
+                    "handle_str": "bigboss",
+                    "sessions": [
+                        "482d85a6-a2fe-40f8-823b-aa8f30549482"
+                    ]
+                }
+            ],
+            "members": [
+                {
+                    "u_id": 0,
+                    "email": "aa@a.com",
+                    "name_first": "Big",
+                    "name_last": "Boss",
+                    "handle_str": "bigboss",
+                    "sessions": [
+                        "482d85a6-a2fe-40f8-823b-aa8f30549482"
+                    ]
+                }
+            ]
+        }
+    ]
+}
